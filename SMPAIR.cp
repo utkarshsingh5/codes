@@ -7,13 +7,18 @@
 #define f(i,a,b) for(int i=a;i<b;i++)
 using namespace std;
 #include<string.h>
-
-//aditya ranaut- phoenix_aditya
-
+//aditya ranaut - phoenix_aditya
 void solve()
 {
+    int n;
+    cin>>n;
+    int arr[n];
+    f(i,0,n)
+    cin>>arr[i];
     
+    sort(arr,arr+n);
     
+    cout<<arr[0]+arr[1]<<endl;
 }
 
 
@@ -21,8 +26,9 @@ void solve()
 int main()
 {
     speed;
-    wh(t)
-     {solve();}
+    
+   wh(t)
+    solve();
     
     return 0;
 }

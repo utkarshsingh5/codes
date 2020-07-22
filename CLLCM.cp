@@ -12,8 +12,21 @@ using namespace std;
 
 void solve()
 {
+    int n;
+    cin>>n;
     
+    int arr[n];
     
+    ll ans=1;
+    
+    f(i,0,n)
+    {cin>>arr[i];ans*=arr[i];}
+    
+    if(ans%2==0)
+        cout<<"no\n";
+    else
+        cout<<"yes\n";
+
 }
 
 

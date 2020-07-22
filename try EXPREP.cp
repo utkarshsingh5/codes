@@ -9,9 +9,23 @@ using namespace std;
 #include<string.h>
 
 //aditya ranaut- phoenix_aditya
+const ll m=998244353;
 
 void solve()
 {
+    string s;
+    cin>>s;
+    
+    map<char,ll> weight;
+    ll temp;
+    for(char c='a';c<='z';c++)
+    {
+        cin>>temp;
+        weight.insert(make_pair(c,temp));
+    }
+    
+    
+    
     
     
 }

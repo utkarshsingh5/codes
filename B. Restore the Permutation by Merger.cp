@@ -12,7 +12,24 @@ using namespace std;
 
 void solve()
 {
+    vector<ll> a;
+    map<ll,bool> b;
     
+    ll n;
+    cin>>n;
+    ll temp;
+    for(int i=0;i<2*n;i++)
+    {
+        cin>>temp;
+        
+        if(!b[temp])
+            a.push_back(temp);
+        
+        b[temp]=true;
+    }
+    for(auto x:a)
+        cout<<x<<" ";
+    cout<<endl;
     
 }
 

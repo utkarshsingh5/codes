@@ -13,7 +13,6 @@ using namespace std;
 void solve()
 {
     
-    
 }
 
 
@@ -21,8 +20,12 @@ void solve()
 int main()
 {
     speed;
-    wh(t)
-     {solve();}
+    int t;
+    cin>>t;
+    for(int i=1;i<=t;i++)
+    {cout<<"CASE #"<<i<<": ";
+        solve();
+    }
     
     return 0;
 }
