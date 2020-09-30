@@ -30,7 +30,7 @@ void solve()
 
 
 // this main function is not working
-main()
+int main()
 {
     wh(t)
      {solve();}
