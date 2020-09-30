@@ -6,6 +6,7 @@
 using namespace std;
 #include<string.h>
 void solve()
+    //this might work
 {
     long long answer;
     long double a, b, c, d,n;
