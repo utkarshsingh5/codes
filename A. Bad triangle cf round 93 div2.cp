@@ -19,7 +19,7 @@ void solve()
     cin>>n;
     
     // this array input not working
-    f(i,0,n)
+    f(i,0,n);
     cin>>arr(i);
     
    if(arr[0]+arr[1]<=arr[n-1])
